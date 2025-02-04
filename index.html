@@ -35,7 +35,8 @@
         </h2>
 
       <!-- Lista de Produtos -->
-        <div id="cardapio mx-1" >
+        <div id="menu" >
+
           <main class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
 
             <!-- Produto item -->
@@ -183,6 +184,8 @@
             </div>
             <!-- Fim Produto Item -->
 
+          
+          
           </main>
 
           <div class="mx-auto max-w-7xl px-2 my-2">
@@ -248,7 +251,8 @@
 
 
         <!-- modal cart -->
-          <div class=" bg-black/50 w-full h-full fixed top-0 left-0 z-[99]  items-center justify-center hidden">
+          <div class=" bg-black/50 w-full h-full fixed top-0 left-0 z-[99]  items-center justify-center hidden"
+          id="cart-modal">
               <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
                 <h2 class="text-center font-bold text-2xl mb-2">meu carrinho</h2>
 
@@ -281,7 +285,7 @@
          <footer class="w-full bg-red-500 py-2 fixed bottom-0 z-40 flex items-center justify-center">
           <button class="flex items-center gap-2 text-white font-bold" 
           id="cart-btn">
-            (<span id="cart-count">2</span>)
+            (<span id="cart-count">0</span>)
             Veja meu carrinho
             <i class="fa fa-cart-plus text-lg text-white"></i>
           </button>
